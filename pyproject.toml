@@ -1,0 +1,21 @@
+[project]
+name = "comfyui-folderqueue"
+version = "1.0.0"
+description = "ComfyUI node: process a folder one image per prompt by re-queueing the same workflow with the next start_index"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "The ComfyUI-FolderQueue Authors" }]
+keywords = ["comfyui", "batch", "folder", "queue", "automation"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Multimedia :: Graphics",
+]
+dependencies = []
+
+# Uncomment and fill in to publish to the ComfyUI Registry (comfy node publish):
+# [tool.comfy]
+# PublisherId = "your-publisher-id"
+# DisplayName = "Folder Queue Next"
+# Icon = ""
